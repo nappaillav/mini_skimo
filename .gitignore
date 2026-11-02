@@ -1,0 +1,35 @@
+# Generated training outputs (images and trained model)
+/outputs/
+
+# Images
+*.[pP][nN][gG]
+*.[jJ][pP][gG]
+*.[jJ][pP][eE][gG]
+*.gif
+*.webp
+*.bmp
+*.tif
+*.tiff
+
+# Model weights and checkpoints (keep model.py source)
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.hdf5
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local credentials and agent configuration
+.env
+.env.*
+!.env.example
+.aws/
+.agents/
+.codex/
